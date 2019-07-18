@@ -1,0 +1,8 @@
+new Drag({
+	"id":"#box",*需要拖拽的DIV
+	"based":"#layer",*在那个DIV里拖拽
+	"unTop":true,*为true时可以超出#layer的DIV顶部范围，默认为false不可超出
+	"unLeft":true,*为true时可以超出#layer的DIV左部范围，默认为false不可超出
+	"unRight":true,*为true时可以超出#layer的DIV右部范围，默认为false不可超出
+	"unBottom":true*为true时可以超出#layer的DIV下面范围，默认为false不可超出
+});
